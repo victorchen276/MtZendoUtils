@@ -1,0 +1,6 @@
+framework module MtZendoUtils {
+  umbrella header "MtZendoUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}

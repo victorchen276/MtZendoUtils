@@ -1,0 +1,22 @@
+{
+  "name": "MtZendoUtils",
+  "version": "0.1.0",
+  "summary": "A short description of MtZendoUtils.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/victorchen276/MtZendoUtils",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "victorchen276": "yche276@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/victorchen276/MtZendoUtils.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MtZendoUtils/Classes/**/*"
+}
