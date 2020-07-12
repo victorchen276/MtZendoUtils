@@ -15,6 +15,27 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.title = "Mt Zendo Demo"
+		
+	/*
+		//Handle ObjC exception in Swift
+		let fakeUrl = URL(string: "www.google.com/asdfasdfasfsadfasd---fgsdf")
+        guard let aUrl = fakeUrl else {
+            print("fakeUrl is nil")
+            return
+            
+        }
+        do {
+            try ObjCExceptionHandler.tryExecute {
+                let safariController = SFSafariViewController(url: aUrl)
+                present(safariController, animated: true, completion: nil)
+            }
+            
+        } catch {
+            print("this is error: " + error.localizedDescription)
+            print(aUrl)
+        }
+	*/
+		
     }
 
     override func didReceiveMemoryWarning() {
